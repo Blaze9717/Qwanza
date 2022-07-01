@@ -7,3 +7,4 @@ urlpatterns = [
     path('',views.news_of_today,name="news_today"),
 ]
 
+

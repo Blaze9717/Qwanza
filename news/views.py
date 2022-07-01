@@ -4,7 +4,7 @@ import datetime as dt
 
 # Create your views here.
 def welcome(request):
-    return HttpResponse("Welcome to moringa school")
+    return render(request , 'welcome.html')
 
 def news_of_today(request):
     date = dt.date.today()
